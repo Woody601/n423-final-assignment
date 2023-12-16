@@ -1,6 +1,7 @@
 import React from 'react';
-import 'semantic-ui-css/semantic.css'
 import '../styles/globals.css';
+import 'semantic-ui-css/semantic.css';
+
 ;
 import { Menu, Icon } from 'semantic-ui-react';
 import Link from 'next/link';
