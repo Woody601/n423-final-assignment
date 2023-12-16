@@ -45,7 +45,7 @@ export default function Contact() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Form className={styles.form} onSubmit={contactFormSubmit}>
+      <form className={styles.form} onSubmit={contactFormSubmit}>
         <Header as="h1">Contact Us</Header>
         <p>Feel free to use this form to get ahold of me!</p>
         <div className={styles.formField}>
@@ -86,7 +86,7 @@ export default function Contact() {
         <div className={styles.formField}>
         <Button type='submit'>Submit <Icon name='send'/></Button>
         </div>
-      </Form>
+      </form>
     </>
   )
 }
