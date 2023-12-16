@@ -1,0 +1,55 @@
+.portrait {
+  display: block;
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.gamePicture {
+  display: block;
+  width: 100%;
+  margin: 0 auto 16px;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.form {
+  padding: 8px;
+  margin: auto;
+  max-width: 400px;
+}
+
+.formField {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 16px;
+  max-width: 400px;
+}
+
+.formField label {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 16px 0;
+}
+
+.formField input {
+  font-size: 16px;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+.formField textarea {
+  font-size: 16px;
+  padding: 12px;
+  max-width: 376px;
+  height: 114px;
+  min-height: 42px;
+  max-height: 204px;
+  resize: vertical;
+}

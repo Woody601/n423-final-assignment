@@ -1,0 +1,27 @@
+.ui.fixed.menu {
+    background-color: #333333;
+    a.item {
+        color: #f2f2f2;
+        text-transform: uppercase;
+    }
+    a.item:hover {
+        background-color: #ddd;
+    }
+  }
+#__next {
+    margin-top:55px;
+}
+
+body {
+    height: calc(100vh - 55px);
+}
+
+.ui.fixed.menu + .ui.grid {
+    padding-top: 0;
+  }
+  .ui.form {
+    max-width: 400px;
+  }
+  .ui.segment:first-child {
+    margin-top: 1rem;
+  }

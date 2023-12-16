@@ -1,0 +1,34 @@
+.form {
+    padding: 8px;
+    margin: auto;
+    max-width: 400px;
+}
+
+.formField {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 16px;
+    max-width: 400px;
+}
+
+.formField label {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 16px 0;
+}
+
+.formField input {
+    font-size: 16px;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+
+.formField textarea {
+    font-size: 16px;
+    padding: 12px;
+    max-width: 376px;
+    height: 114px;
+    min-height: 42px;
+    max-height: 204px;
+    resize:vertical;
+}
